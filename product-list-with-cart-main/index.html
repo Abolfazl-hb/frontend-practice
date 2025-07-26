@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Product list with cart</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>Desserts</h1>
+                <div class="content">
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-waffle-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Waffle</p>
+                        <p class="card-p">Waffle with Berries</p>
+                        <p class="card-p card-red">$6.50</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-creme-brulee-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Crème Brûlée</p>
+                        <p class="card-p">Vanilla Bean Crème Brûlée</p>
+                        <p class="card-p card-red">$7.00</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-macaron-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Macaron</p>
+                        <p class="card-p">Macaron Mix of Five</p>
+                        <p class="card-p card-red">$8.00</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-tiramisu-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Tiramisu</p>
+                        <p class="card-p">Classic Tiramisu</p>
+                        <p class="card-p card-red">$5.50</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-baklava-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Baklava</p>
+                        <p class="card-p">Pistachio Baklava</p>
+                        <p class="card-p card-red">$4.00</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-meringue-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Pie</p>
+                        <p class="card-p">Lemon Meringue Pie</p>
+                        <p class="card-p card-red">$5.00</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-cake-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Cake</p>
+                        <p class="card-p">Red Velvet Cake</p>
+                        <p class="card-p card-red">$4.50</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-brownie-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Brownie</p>
+                        <p class="card-p">Salted Caramel Brownie</p>
+                        <p class="card-p card-red">$5.50</p>
+                    </div>
+                    <div class="content-card">
+                        <img
+                            src="./assets/images/image-panna-cotta-desktop.jpg"
+                            alt=""
+                        />
+                        <button class="card-btn">
+                            <img
+                                class="addtocard-img"
+                                src="./assets/images/icon-add-to-cart.svg"
+                                alt=""
+                            />
+                            <p>Add to Carts</p>
+                        </button>
+                        <p>Panna Cotta</p>
+                        <p class="card-p">Vanilla Panna Cotta</p>
+                        <p class="card-p card-red">$6.50</p>
+                    </div>
+                </div>
+            </div>
+            <aside class="side">
+                <h2 class="aside-h">Your Cart (7)</h2>
+
+                <div class="side-1th">
+                    <div class="side-left">
+                        <p class="side-head">Classic Tiramisu</p>
+                        <div class="side-foot">
+                            <span class="ft-red">1x</span>
+                            <span
+                                >@ $5.50
+                                <span class="span-color">$13.00</span></span
+                            >
+                        </div>
+                    </div>
+                    <button class="remove-btn">
+                        <img
+                            class="remove-img"
+                            src="./assets/images/icon-remove-item.svg"
+                            alt=""
+                        />
+                    </button>
+                </div>
+                <div class="side-1th">
+                    <div class="side-left">
+                        <p class="side-head">Vanilla Bean Crème Brûlée</p>
+                        <div class="side-foot">
+                            <span class="ft-red">4x</span>
+                            <span
+                                >@ $7.00
+                                <span class="span-color">$13.00</span></span
+                            >
+                        </div>
+                    </div>
+                    <button class="remove-btn">
+                        <img
+                            class="remove-img"
+                            src="./assets/images/icon-remove-item.svg"
+                            alt=""
+                        />
+                    </button>
+                </div>
+                <div class="side-1th">
+                    <div class="side-left">
+                        <p class="side-head">Vanilla Panna Cotta</p>
+                        <div class="side-foot">
+                            <span class="ft-red">2x</span>
+                            <span
+                                >@ $6.50
+                                <span class="span-color">$13.00</span></span
+                            >
+                        </div>
+                    </div>
+                    <button class="remove-btn">
+                        <img
+                            class="remove-img"
+                            src="./assets/images/icon-remove-item.svg"
+                            alt=""
+                        />
+                    </button>
+                </div>
+
+                <div class="side-4th">
+                    <p>Order Total</p>
+                    <p class="side-4th-p">$46.50</p>
+                </div>
+
+                <div class="side-5th">
+                    <img src="./assets/images/icon-carbon-neutral.svg" alt="" />
+                    <span>This is a <b>carbon-neutral</b> delivery</span>
+                </div>
+
+                <div class="side-6th">
+                    <!-- Button trigger modal -->
+                    <button
+                        type="button"
+                        class="btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                    >
+                        Confirm Order
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                        class="modal fade"
+                        id="exampleModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header aside-header">
+                                    <img
+                                        class="confirm-img"
+                                        src="./assets/images/icon-order-confirmed.svg"
+                                        alt=""
+                                    />
+                                    <p class="confirm-h">Order Confirmed</p>
+                                    <p>We hope you enjoy your food!</p>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="aside-main">
+                                        <div class="order-1th">
+                                            <img
+                                                class="aside-modal-img"
+                                                src="./assets/images/image-tiramisu-thumbnail.jpg"
+                                                alt=""
+                                            />
+                                            <div class="order-main">
+                                                <p class="order-name">
+                                                    Classic Tiramisu
+                                                </p>
+                                                <p class="order-p">
+                                                    <span class="span-red"
+                                                        >1x</span
+                                                    >
+                                                    <span>@ $5.50</span>
+                                                </p>
+                                            </div>
+                                            <p class="order-price order-name">
+                                                $5.50
+                                            </p>
+                                        </div>
+                                        <div class="order-1th">
+                                            <img
+                                                class="aside-modal-img"
+                                                src="./assets/images/image-creme-brulee-thumbnail.jpg"
+                                                alt=""
+                                            />
+                                            <div class="order-main">
+                                                <p class="order-name">
+                                                    Vanilla Bean Crème Brûlée
+                                                </p>
+                                                <p class="order-p">
+                                                    <span class="span-red"
+                                                        >4x</span
+                                                    >
+                                                    <span>@ $7.00</span>
+                                                </p>
+                                            </div>
+                                            <p class="order-price order-name">
+                                                $28.00
+                                            </p>
+                                        </div>
+                                        <div class="order-1th">
+                                            <img
+                                                class="aside-modal-img"
+                                                src="./assets/images/image-panna-cotta-thumbnail.jpg"
+                                                alt=""
+                                            />
+                                            <div class="order-main">
+                                                <p class="order-name">
+                                                    Vanilla Panna Cotta
+                                                </p>
+                                                <p class="order-p">
+                                                    <span class="span-red"
+                                                        >2x</span
+                                                    >
+                                                    <span>@ $6.50</span>
+                                                </p>
+                                            </div>
+                                            <p class="order-price order-name">
+                                                $13.00
+                                            </p>
+                                        </div>
+                                        <div class="order-last">
+                                            <span>Order Total</span>
+                                            <span class="order-last-span"
+                                                >$46.50</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn">
+                                        Start New Order
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
