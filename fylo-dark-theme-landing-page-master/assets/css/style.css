@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "open_Sans";
+    font-weight: 400;
+    src: url("../fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: "open_Sans";
+    font-weight: 700;
+    src: url("../fonts/Open_Sans/static/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: "raleway";
+    font-weight: 400;
+    src: url("../fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "raleway";
+    font-weight: 700;
+    src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
+}
+:root {
+    --Navy-850: hsl(217, 28%, 15%);
+    --Navy-900: hsl(218, 28%, 13%);
+    --Navy-950: hsl(216, 53%, 9%);
+    --Navy-800: hsl(219, 30%, 18%);
+    --Teal-200: hsl(176, 68%, 64%);
+    --Cyan-500: hsl(198, 60%, 50%);
+    /* --Red-500(error): hsl(0, 100%, 63%); */
+    --White: hsl(0, 0%, 100%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+body {
+    font-family: "open_Sans";
+    background-color: var(--Navy-800);
+    color: var(--White);
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.header-main {
+    width: 1300px;
+    height: 90px;
+    margin-inline: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-links {
+    color: var(--White);
+    display: flex;
+    gap: 25px;
+}
+.header-link {
+    border-bottom: 3px solid transparent;
+}
+.header-link:hover {
+    border-bottom: 3px solid var(--White);
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-block: 60px;
+}
+.main-sec-head {
+    width: 800px;
+    text-align: center;
+}
+.main-sec-p {
+    width: 450px;
+    text-align: center;
+}
+.get-start-link {
+    border-radius: 30px;
+    background-color: var(--Cyan-500);
+    padding-block: 10px;
+    padding-inline: 60px;
+}
+.get-start-link:hover {
+    background-color: var(--Teal-200);
+}
+.four-carts {
+    width: 1300px;
+    padding: 60px;
+}
+.carts {
+    text-align: center;
+    padding-inline: 90px;
+    padding-block: 30px;
+}
+.illustration {
+    width: 1300px;
+    padding-inline: 30px;
+    padding-block: 60px;
+}
+.illustration-div {
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.illustration-h {
+    width: 400px;
+}
+.illustration-link {
+    border-bottom: 3px solid var(--Cyan-500);
+    color: var(--Cyan-500);
+}
+.illustration-link:hover {
+    border-bottom: 3px solid var(--White);
+    color: var(--White);
+    .illustration-img {
+        background-color: var(--White);
+    }
+}
+.profile {
+    width: 1300px;
+    padding-inline: 30px;
+    padding-block: 60px;
+}
+.profile-background {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.profile-carts {
+    background-color: var(--Navy-850);
+    padding: 30px;
+}
+.profile-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.profile-descript {
+    font-weight: lighter;
+    h6,
+    p {
+        margin: 0;
+    }
+}
+.email-div {
+    width: 800px;
+    background-color: var(--Navy-850);
+    text-align: center;
+    position: relative;
+    top: 74px;
+    padding-block: 30px;
+    padding-inline: 60px;
+}
+.email-con {
+    display: flex;
+    gap: 15px;
+}
+.email-box {
+    border-radius: 30px;
+    height: 41px;
+    border-width: 0;
+    flex-grow: 1;
+}
+.email-link {
+    border-radius: 30px;
+    background-color: var(--Cyan-500);
+    padding-block: 10px;
+    padding-inline: 60px;
+}
+.email-link:hover {
+    background-color: var(--Teal-200);
+}
+footer {
+    background-color: var(--Navy-950);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-main {
+    width: 1300px;
+    height: 400px;
+    padding-inline: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-logo {
+    width: 167px;
+    height: 52px;
+}
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-p {
+    width: 330px;
+}
+.loc-img {
+    width: 13px;
+    height: 18px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
