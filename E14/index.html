@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practice</title>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-form">
+                <input
+                    type="text"
+                    id="site_search"
+                    class="abcd"
+                    name="q"
+                    placeholder="Enter search terms"
+                />
+                <button id="search_submit" class="abcde">Search</button>
+            </div>
+
+            <div class="time-dis">
+                <p>Current Time:</p>
+            </div>
+            <div class="description">
+                <p class="city"></p>
+                <!-- <p class="icon"></p> -->
+                <div class="degree">
+                    <p class="degree-p"></p>
+                    <img class="degree-img" src="./degree.png" alt="" />
+                </div>
+
+                <div class="condish">
+                    <div class="wind">
+                        <img class="wind-img" src="./wind.png" alt="" />
+                        <div class="main-wind">
+                            <p class="wind-p"></p>
+                            <span>km/h</span>
+                        </div>
+                    </div>
+                    <div class="humidity">
+                        <img class="humid-img" src="./humidity.png" alt="" />
+                        <div class="main-humid">
+                            <p class="humidity-p"></p>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./data.js"></script>
+    </body>
+</html>

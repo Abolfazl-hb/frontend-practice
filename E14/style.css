@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container {
+    text-align: center;
+    /* background-color: rgb(237, 213, 213); */
+
+    background-color: #ffffffa0;
+    /* opacity: 0.6; */
+    border-radius: 30px;
+}
+.main-form {
+    /* border: 3px solid red; */
+    border-radius: 30px;
+    /* background-color: yellow; */
+    padding: 30px;
+    align-self: flex-start;
+}
+.abcd {
+    padding: 15px;
+    border-radius: 30px;
+    width: 300px;
+}
+.abcde {
+    padding: 15px;
+    border-radius: 30px;
+}
+.description {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    /* border: 3px solid red; */
+    /* background-color: yellow; */
+    padding: 30px;
+}
+.time-dis {
+    width: 500px;
+    border-radius: 30px;
+    /* border: 3px solid red; */
+    /* background-color: yellow; */
+    padding: 30px;
+}
+.sunny {
+    background-image: url(./sunny.jpg);
+    background-size: cover;
+}
+.sunny-color {
+    background: linear-gradient(red, yellow);
+}
+.rainy {
+    /* background: linear-gradient(blue, gray); */
+
+    background-image: url(./rainy.jpg);
+    background-size: cover;
+}
+.rainy-color {
+    background: linear-gradient(blue, gray);
+}
+.cloudy {
+    /* background-color: gray; */
+    background-image: url(./cloudy.jpg);
+    background-size: cover;
+}
+.cloudy-color {
+    background-color: gray;
+}
+.partly-cloudy {
+    /* background-color: lightblue; */
+    background-image: url(./partly-cloudy-skies-.jpg);
+    background-size: cover;
+}
+.partly-cloudy-color {
+    background-color: lightblue;
+}
+.dust {
+    /* background-color: brown; */
+
+    background-image: url(./dusty.jpg);
+    background-size: cover;
+}
+.dust-color {
+    background-color: brown;
+}
+.sultry {
+    background-color: blue;
+}
+.condish,
+.degree,
+.main-wind,
+.main-humid {
+    display: flex;
+    justify-content: center;
+}
+.degree-img,
+.wind-img,
+.humid-img {
+    width: 30px;
+    height: 30px;
+}
+.condish {
+    gap: 50px;
+}
+.degree,
+.condish {
+    padding-top: 30px;
+}
