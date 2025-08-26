@@ -61,6 +61,11 @@ body {
 
     border: 1px solid black;
 }
+.card-btn:hover {
+    color: var(--Red);
+
+    border: 1px solid var(--Red);
+}
 .addtocard-img {
     width: 20px;
     height: 20px;
@@ -100,6 +105,13 @@ body {
         color: var(--Rose-50);
     }
 }
+/* .right-btn:hover {
+    color: yellow;
+    background-color: steelblue;
+    img {
+        color: black;
+    }
+} */
 .display-hide {
     display: none;
 }
@@ -151,6 +163,10 @@ body {
     border-radius: 20px;
     border: 2px solid var(--Rose-300);
 }
+/* .remove-img :hover {
+    color: black;
+    border: 2px solid black;
+} */
 .side-4th {
     display: flex;
     justify-content: space-between;
@@ -177,10 +193,10 @@ body {
     color: var(--Rose-50);
     background-color: var(--Red);
 }
-/* .btn:hover {
+.btn:hover {
     color: var(--Rose-50);
-    background-color: var(--Red);
-} */
+    background-color: hsl(14, 100%, 27%);
+}
 .modal-header {
     border-bottom: none;
 }
