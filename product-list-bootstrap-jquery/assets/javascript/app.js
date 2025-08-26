@@ -231,6 +231,8 @@ $(".tr-class").on("click", ".remove-btn", (event) => {
     $(".content-card").each((index, item) => {
         let a = $(item).find("#card-p").text().trim();
         if (a === b) {
+            $(item).find(".cart-new-p").text("1");
+
             $(item).find(".card-btn-new").addClass("display-hide");
             $(item).find(".card-btn").removeClass("display-hide");
 
