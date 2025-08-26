@@ -1,0 +1,577 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Pruduct-list</title>
+
+        <link
+            rel="stylesheet"
+            href="./assets/bootstrap/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row main-row">
+                <div class="col-lg-8 col-md-7 col-sm-6">
+                    <h1>Desserts</h1>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-card" id="waffle" carts="0">
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-waffle-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Waffle</p>
+                                <p id="card-p" class="card-p">
+                                    Waffle with Berries
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $6.50
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div
+                                class="content-card"
+                                id="creme-brulee"
+                                carts="1"
+                            >
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-creme-brulee-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Crème Brûlée</p>
+                                <p id="card-p" class="card-p">
+                                    Vanilla Bean Crème Brûlée
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $7.00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-card" id="macaron" carts="2">
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-macaron-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Macaron</p>
+                                <p id="card-p" class="card-p">
+                                    Macaron Mix of Five
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $8.00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-card" id="tiramisu" carts="3">
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-tiramisu-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Tiramisu</p>
+                                <p id="card-p" class="card-p">
+                                    Classic Tiramisu
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $5.50
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-card" id="baklava" carts="4">
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-baklava-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Baklava</p>
+                                <p id="card-p" class="card-p">
+                                    Pistachio Baklava
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $4.00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-card" id="meringue" carts="5">
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-meringue-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Pie</p>
+                                <p id="card-p" class="card-p">
+                                    Lemon Meringue Pie
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $5.00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-card" id="cake" carts="6">
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-cake-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Cake</p>
+                                <p id="card-p" class="card-p">
+                                    Red Velvet Cake
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $4.50
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="content-card" id="brownie" carts="7">
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-brownie-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Brownie</p>
+                                <p id="card-p" class="card-p">
+                                    Salted Caramel Brownie
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $5.50
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div
+                                class="content-card"
+                                id="panna-cotta"
+                                carts="8"
+                            >
+                                <img
+                                    class="content-card-img"
+                                    src="./assets/images/image-panna-cotta-desktop.jpg"
+                                    alt=""
+                                />
+                                <button class="card-btn" id="cart-btn">
+                                    <img
+                                        class="addtocard-img"
+                                        src="./assets/images/icon-add-to-cart.svg"
+                                        alt=""
+                                    />
+                                    <p>Add to Carts</p>
+                                </button>
+                                <div
+                                    class="card-btn-new display-hide"
+                                    id="cart-btn-new"
+                                >
+                                    <button class="left-btn" id="left-btn">
+                                        <img
+                                            class="decrement-img"
+                                            src="./assets/images/icon-decrement-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                    <p class="cart-new-p">1</p>
+                                    <button class="right-btn" id="right-btn">
+                                        <img
+                                            class="increment-img"
+                                            src="./assets/images/icon-increment-quantity.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <p>Panna Cotta</p>
+                                <p id="card-p" class="card-p">
+                                    Vanilla Panna Cotta
+                                </p>
+                                <p id="card-red" class="card-p card-red">
+                                    $6.50
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="side" class="col-lg-4 col-md-5 col-sm-6 side">
+                    <h2 class="aside-h">Your Cart (<span>0</span>)</h2>
+                    <div class="side-bar-main display-hide">
+                        <table class="tr-class">
+                            <!-- <tr>
+                                <td class="side-1th">
+                                    <div class="side-left">
+                                        <p class="side-head">
+                                            Waffle with Berries
+                                        </p>
+                                        <div class="side-foot">
+                                            <span class="ft-red">1x</span>
+                                            <span class="span-item"
+                                                >@ $6.50
+                                                <span class="span-color"
+                                                    >$13.00</span
+                                                ></span
+                                            >
+                                        </div>
+                                    </div>
+                                    <button class="remove-btn">
+                                        <img
+                                            class="remove-img"
+                                            src="./assets/images/icon-remove-item.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </td>
+                            </tr> -->
+                        </table>
+                        <div class="side-4th">
+                            <p>Order Total</p>
+                            <p class="side-4th-p">$46.50</p>
+                        </div>
+
+                        <div class="side-5th">
+                            <img
+                                src="./assets/images/icon-carbon-neutral.svg"
+                                alt=""
+                            />
+                            <span
+                                >This is a <b>carbon-neutral</b> delivery</span
+                            >
+                        </div>
+
+                        <div class="side-6th">
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                            >
+                                Confirm Order
+                            </button>
+
+                            <!-- Modal -->
+                            <div
+                                class="modal fade"
+                                id="exampleModal"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header aside-header">
+                                            <img
+                                                class="confirm-img"
+                                                src="./assets/images/icon-order-confirmed.svg"
+                                                alt=""
+                                            />
+                                            <p class="confirm-h">
+                                                Order Confirmed
+                                            </p>
+                                            <p>We hope you enjoy your food!</p>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="aside-main">
+                                                <table class="tr-modal">
+                                                    <!-- <tr>
+                                                        <td class="order-1th">
+                                                            <img
+                                                                class="aside-modal-img"
+                                                                src="./assets/images/image-tiramisu-thumbnail.jpg"
+                                                                alt=""
+                                                            />
+                                                            <div
+                                                                class="order-main"
+                                                            >
+                                                                <p
+                                                                    class="order-name" id="order-name"
+                                                                >
+                                                                    Classic
+                                                                    Tiramisu
+                                                                </p>
+                                                                <p
+                                                                    class="order-p"
+                                                                >
+                                                                    <span
+                                                                        class="span-red"
+                                                                        >1x</span
+                                                                    >
+                                                                    <span
+                                                                        >@
+                                                                        $5.50</span
+                                                                    >
+                                                                </p>
+                                                            </div>
+                                                            <p
+                                                                class="order-price order-name"
+                                                            >
+                                                                $5.50
+                                                            </p>
+                                                        </td>
+                                                    </tr> -->
+                                                </table>
+                                                <div class="order-last">
+                                                    <span>Order Total</span>
+                                                    <span
+                                                        class="order-last-span"
+                                                        >$46.50</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn">
+                                                Start New Order
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side-bar-bot">
+                        <img
+                            src="./assets/images/illustration-empty-cart.svg"
+                            alt=""
+                        />
+                        <p>Your added items will apear here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/jquery/jquery.js"></script>
+        <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/javascript/app.js"></script>
+    </body>
+</html>
