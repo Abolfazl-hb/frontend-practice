@@ -60,6 +60,7 @@ body {
     justify-content: center;
 
     border: 1px solid black;
+    color: black;
 }
 .card-btn:hover {
     color: var(--Red);
@@ -158,6 +159,8 @@ body {
 .remove-btn {
     align-self: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 20px;
     height: 20px;
     border-radius: 20px;
