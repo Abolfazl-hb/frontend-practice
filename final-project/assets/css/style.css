@@ -37,8 +37,8 @@ body {
 .page-container {
     width: 1440px;
     /* border: 1px solid red; */
-    background-image: url("./images/Pattern.png"), url("./images/Cover.png"),
-        url("./images/image.png");
+    background-image: url("../../images/Pattern.png"),
+        url("../../images/Cover.png"), url("../../images/image.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top right, bottom left, bottom left;
     display: flex;
@@ -524,7 +524,7 @@ footer {
     /* border: 1px solid black; */
     padding: 64px;
     padding-top: 104px;
-    background-image: url("./images/Pattern-footer.png");
+    background-image: url("../../images/Pattern-footer.png");
     background-repeat: no-repeat;
     background-position: top right;
     /* display: flex;
@@ -598,7 +598,7 @@ footer {
     }
     /* وقتی input خالی باشه، آیکون نمایش داده میشه */
     input[type="email"]:placeholder-shown {
-        background-image: url("./images/form-email.png");
+        background-image: url("../../images/form-email.png");
     }
     /* وقتی کاربر چیزی تایپ کنه، آیکون میره */
     input[type="email"]:not(:placeholder-shown) {
@@ -751,8 +751,9 @@ footer {
 /* بین 768px تا 576px (md → sm) */
 @media (max-width: 768px) {
     .page-container {
-        background-image: url("./images/Pattern-mobile.png"),
-            url("./images/Cover-mobile.png"), url("./images/image-mobile.png");
+        background-image: url("../../images/Pattern-mobile.png"),
+            url("../../images/Cover-mobile.png"),
+            url("../../images/image-mobile.png");
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: top right, bottom left, bottom left;
     }
@@ -897,7 +898,7 @@ footer {
     .footer-bg {
         padding: 16px;
         padding-top: 86px;
-        background-image: url("./images/Pattern-footer-mobile.png");
+        background-image: url("../../images/Pattern-footer-mobile.png");
         background-repeat: no-repeat;
         background-position: top right;
         /* display: flex;
