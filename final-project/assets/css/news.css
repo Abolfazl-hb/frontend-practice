@@ -154,10 +154,14 @@
     i {
         padding-left: 8px;
     }
+    a {
+        color: var(--green-800);
+    }
 }
 
 .page-link {
     border-radius: 8px;
+    color: var(--neutral-900);
 }
 .nav-display {
     display: block;

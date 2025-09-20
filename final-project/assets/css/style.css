@@ -352,6 +352,9 @@ footer {
 }
 .footrt-bot-right-div {
     direction: ltr;
+    span {
+        color: var(--Light);
+    }
 }
 .footrt-bot-left {
     font-size: 12px;
