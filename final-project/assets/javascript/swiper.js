@@ -31,7 +31,7 @@ const swiper = new Swiper(".swiper", {
     },
     rtl: true,
     navigation: {
-        nextEl: ".btn-prev",
-        prevEl: ".btn-next",
+        nextEl: ".btn-next",
+        prevEl: ".btn-prev",
     },
 });

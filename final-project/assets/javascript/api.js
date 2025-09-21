@@ -40,6 +40,8 @@ fetchCategories(y);
 
 fetchBlogs(z);
 localStorage.setItem("pageLinkText", "1");
+// $('a[item="first-item"]').addClass("disabled-link");
+
 $(".all-links").on("click", function () {
     $(".nav-display").removeClass("nav-display-none");
 
@@ -49,22 +51,33 @@ $(".all-links").on("click", function () {
     fetchBlogs(z);
 });
 
+// let pageLinkText = localStorage.getItem("pageLinkText");
 $(".page-link").on("click", function () {
     let pageItem = $(this).text();
+    // console.log(pageItem);
     let pageLinkText = localStorage.getItem("pageLinkText");
     // console.log(pageLinkText);
-    if (pageItem === "Next") {
-        // console.log("next");
+
+    if (pageItem === "بعدی ") {
         if (pageLinkText === "4") {
             pageLinkText = "0";
         }
         pageItem = ++pageLinkText;
-    } else if (pageItem === "Previous") {
+    } else if (pageItem === " قبلی") {
         if (pageLinkText === "1") {
             pageLinkText = "5";
         }
         pageItem = --pageLinkText;
     }
+
+    // if (pageLinkText === "1") {
+    //     $('a[item="first-item"]').addClass("disabled-link");
+    // } else if (pageLinkText === "4") {
+    //     $('a[item="last-item"]').addClass("disabled-link");
+    // } else {
+    //     $('a[item="first-item"]').removeClass("disabled-link");
+    //     $('a[item="last-item"]').removeClass("disabled-link");
+    // }
 
     // console.log(pageItem);
     z = baseUrl + `?page=${pageItem}&limit=9`;
@@ -73,6 +86,7 @@ $(".page-link").on("click", function () {
 
     localStorage.setItem("pageLinkText", pageItem);
 });
+
 const newsData = fetch(y)
     .then((response) => {
         return response.json();

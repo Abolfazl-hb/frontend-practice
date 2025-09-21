@@ -77,11 +77,11 @@ const swiper = new Swiper(".swiper", {
         },
     },
     autoplay: {
-        delay: 5000,
+        delay: 3000,
     },
     rtl: true,
     navigation: {
-        nextEl: ".btn-prev",
-        prevEl: ".btn-next",
+        nextEl: ".btn-next",
+        prevEl: ".btn-prev",
     },
 });

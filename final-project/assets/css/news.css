@@ -162,6 +162,16 @@
 .page-link {
     border-radius: 8px;
     color: var(--neutral-900);
+    i {
+        font-size: 10px;
+    }
+}
+.disabled-link {
+    pointer-events: none; /* کلیک رو غیر فعال می‌کنه */
+    color: gray; /* تغییر رنگ برای مشخص شدن */
+    cursor: default; /* نشانگر موس عوض میشه */
+    text-decoration: none;
+    opacity: 0.6; /* ظاهر محو */
 }
 .nav-display {
     display: block;

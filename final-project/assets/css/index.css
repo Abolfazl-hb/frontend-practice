@@ -422,6 +422,10 @@
     p {
         margin: 0;
     }
+    i {
+        font-size: 10px;
+        color: var(--Yellow-300-Secondary);
+    }
 }
 @media (max-width: 1400px) {
     .first-page-main {
